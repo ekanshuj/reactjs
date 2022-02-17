@@ -4,8 +4,8 @@ export default function About(props) {
   return (
     <>
       <div className="container">
-        <div className={`accordion accordion-flush" id="accordionFlushExample bg-${props.mode} m-4`}>
-          <div className="accordion-item">
+        <div className={`accordion accordion-flush m-5`} id="accordionFlushExample">
+          <div className="accordion-item" style={{ backgroundColor: props.mode === 'light' ? 'white' : '#212529', color: props.mode === 'light' ? 'black' : 'white' }}>
             <h2 className="accordion-header" id="flush-headingOne">
               <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
                 Accordion Item #1
@@ -15,7 +15,7 @@ export default function About(props) {
               <div className="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
             </div>
           </div>
-          <div className="accordion-item">
+          <div className="accordion-item" style={{ backgroundColor: props.mode === 'light' ? 'white' : '#212529', color: props.mode === 'light' ? 'black' : 'white' }}>
             <h2 className="accordion-header" id="flush-headingTwo">
               <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
                 Accordion Item #2
@@ -25,7 +25,7 @@ export default function About(props) {
               <div className="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
             </div>
           </div>
-          <div className="accordion-item">
+          <div className="accordion-item" style={{ backgroundColor: props.mode === 'light' ? 'white' : '#212529', color: props.mode === 'light' ? 'black' : 'white' }}>
             <h2 className="accordion-header" id="flush-headingThree">
               <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
                 Accordion Item #3
