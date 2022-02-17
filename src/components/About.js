@@ -4,7 +4,7 @@ export default function About(props) {
   return (
     <>
       <div className="container">
-        <div className={`accordion accordion-flush m-5`} id="accordionFlushExample">
+        <div className={`accordion accordion-flush m-5 border border-dark`} id="accordionFlushExample">
           <div className="accordion-item" style={{ backgroundColor: props.mode === 'light' ? 'white' : '#212529', color: props.mode === 'light' ? 'black' : 'white' }}>
             <h2 className="accordion-header" id="flush-headingOne">
               <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
